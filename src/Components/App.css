@@ -1,0 +1,44 @@
+html,
+body,
+.app {
+  height: 100vh;
+  background: #eee;
+  padding: 1em;
+}
+.messages{
+  height: 465px;
+  margin-right: -100px;
+  overflow-y: scroll;
+
+}
+.messages__form{
+  position: fixed !important;
+  bottom: 1em;
+  margin-left: 320px !important;
+  left: 0;
+  right: 1em;
+  z-index: 200;
+}
+.messages__self{
+  border-left: 2px solid red;
+  padding-left: 8px;
+
+}
+/* 
+2ecc71 */
+
+.message__image{
+ padding: 1em;
+ border-radius: 2em;
+ width: 70%;
+  
+}
+
+.progress__bar{
+  margin: 0.3em 0 0 0 !important;
+  
+}
+
+.menu{
+  padding-bottom: 2em;
+}
